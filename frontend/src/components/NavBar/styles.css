@@ -1,0 +1,35 @@
+header {
+    background-color: var(--color-primary);
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dsmovies-nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.dsmovies-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.dsmovies-contact-content{
+    display: flex;
+    align-items: center;
+}
+
+.dsmovies-contact-link{
+    margin: 0 0 0 10px; /* top right bot left*/
+    font-size: 12px;
+}
